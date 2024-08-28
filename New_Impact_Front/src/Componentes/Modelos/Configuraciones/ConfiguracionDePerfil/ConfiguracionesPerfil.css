@@ -1,0 +1,66 @@
+.container_ConfiguracionesPerfil{
+  margin: auto;
+  margin-top: 5%;
+  width: 40rem;
+  }
+
+@media (max-width: 1300px) {
+  .container_ConfiguracionesPerfil{
+    margin: auto;
+    margin-top: 7%;
+    }
+}
+
+@media (max-width: 1000px) {
+  .container_ConfiguracionesPerfil{
+    margin: auto;
+    margin-top: 10%;
+    }
+}
+
+@media (max-width: 850px) {
+  .container_ConfiguracionesPerfil{
+    margin: auto;
+    margin-top: 13%;
+    }
+}
+
+@media (max-width: 650px) {
+  .container_ConfiguracionesPerfil{
+    margin: auto;
+    margin-left: 11%;
+    margin-top: 17%;
+    }
+}
+
+@media (max-width: 470px) {
+  .container_ConfiguracionesPerfil{
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 20%;
+    }
+}
+
+@media (max-width: 400px) {
+  .container_ConfiguracionesPerfil{
+    margin: auto;
+    margin-left: 22%;
+    margin-top: 22%;
+    }
+}
+
+
+@media (max-width: 350px) {
+  .container_ConfiguracionesPerfil{
+    margin: auto;
+    margin-left: 25%;
+    margin-top: 30%;
+    }
+}
+  
+  
+.text-configuracion{
+  font-family: var(--fontFamily-drawer);
+  font-size: var(--fontSize-drawer); 
+  font-weight: var(--fontWeight-drawer);
+}

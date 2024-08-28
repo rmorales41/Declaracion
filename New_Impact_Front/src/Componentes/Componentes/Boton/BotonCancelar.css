@@ -1,0 +1,11 @@
+.btn-cancelar{
+  background-color: #F28705;
+  color: white;
+  font-family: var(--fontFamily-drawer);
+  font-size: calc(var(--fontSize-drawer) - 2px);
+}
+
+.btn-cancelar:hover{
+  background-color: #d67703;
+  color: white;
+}

@@ -1,0 +1,9 @@
+.text-center {
+  margin: 0vh;
+  padding: 0vh;
+}
+@media screen and (max-width: 920px) {
+  .textoFooter {
+    font-size: small;
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "compania": "Sipav",
+    "logo": "Publicidad_Imgs/SipavLogo.png",
+    "mensaje": "El 28 de septiembre de 1991, Víctor Hugo Barillas Mora fundó SIPAV INTERNACIONAL, S.A., una empresa de servicios contables independientes. Desde entonces, hemos ampliado nuestra oferta de servicios para incluir contabilidad pública, suministro de personal in situ, auditoría, planificación tributaria, servicios administrativos, producción y tecnologías de información, como ERP y facturación electrónica. Nuestro enfoque principal ha sido y seguirá siendo agregar servicios y clientes a nuestra cartera, convirtiéndonos en una empresa de asesoramiento empresarial en materia de gestión.",
+    "eslogan": "Servicios de Factura Electrónica, Contabilidad, Soporte, Venta de Equipos Informáticos y Desarrollo"
+  },
+  {
+    "compania": "Rapibox",
+    "logo": "Publicidad_Imgs/RapiboxLogo.png",
+    "mensaje": "Rapibox nace con el objetivo de brindar servicio rápido, ágil, técnico y personalizado. La amplia experiencia de nuestro personal en el área grafica de la región centroamericana, hace que Rapibox S.A. se convierta en una verdadera opción competitiva en la solución de empaque, cajas y corrugados.",
+    "eslogan": "Fabricante, distribuidor y comercializador de cajas de cartón corrugado y empaques en general."
+  },
+  {
+    "compania": "Miki Travel",
+    "logo": "Publicidad_Imgs/mikiTravelLogo.svg",
+    "mensaje": "We are a Tour Operator / Travel Agency located in Costa Rica, with people that know Costa Rica.All our clients will obtain personalized and first class service of their Costa Rica vacation.We save you time and money by planning you the perfect vacation in Costa Rica based on your needs.We have been in the business since 1975. We are members of different prestigious organizations related to the travel industry.We have no service fees or hidden charges.",
+    "eslogan": "WITH MTA TRAVEL SOLUTIONS YOU GET RESULTS."
+  }
+]

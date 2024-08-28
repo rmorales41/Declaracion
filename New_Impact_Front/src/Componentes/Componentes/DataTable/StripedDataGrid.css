@@ -1,0 +1,10 @@
+.cuentas-hijas {
+  padding-left: 20px; /* Ajusta el valor según sea necesario */
+  color: rgb(8, 8, 201);
+}
+
+.no-subcuentas  {
+  padding-left: 40px; /* Ajusta el valor según sea necesario */
+  color: rgb(79, 173, 72);
+  font-weight: bold;
+}

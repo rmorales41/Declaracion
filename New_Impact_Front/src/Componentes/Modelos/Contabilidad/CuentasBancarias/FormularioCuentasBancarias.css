@@ -1,0 +1,66 @@
+.container_formuario{
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 1%;
+  }
+  
+  /*es el css de todo el lo que cntiene el la tabla del compañia paises menos de 1300px*/
+  @media (max-width: 1400px) {
+    .container_formuario{
+      margin-top: 7%;
+      margin-left: 6%;
+      margin-right: 2%;
+      }
+  } 
+  
+  /*es el css de todo el lo que cntiene el la tabla del compañia paises menos de 1050px*/
+  @media (max-width: 1050px) {
+    .container_formuario{
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-right: 5%;
+    }
+  }
+
+  
+  /*es el css de todo el lo que cntiene el la tabla del compañia paises menos de 750px*/
+  @media (max-width: 750px) {
+    .container_formuario{
+      margin-top: 15%;
+      margin-left: 15%;
+      margin-right: 5%;
+    }
+  }
+  
+  /*es el css de todo el lo que cntiene el la tabla del compañia paises menos de 450px */
+  @media (max-width: 450px) {
+    .container_formuario{
+      margin-top: 20%;
+      margin-left: 20%;
+      margin-right: 5%;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .container_formuario{
+      margin-top: 25%;
+      margin-left: 25%;
+      margin-right: 5%;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .container_formuario{
+      margin-top: 30%;
+      margin-left: 25%;
+      margin-right: 5%;
+    }
+  }
+  
+  .form_formuario{
+    padding-bottom:2%;
+    border: 1.1px solid #D2D2D2;
+    border-radius: 1%;
+    background-color: #d2d2d22d;;;
+  }  
+    

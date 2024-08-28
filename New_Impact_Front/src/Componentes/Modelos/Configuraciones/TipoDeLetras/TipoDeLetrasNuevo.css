@@ -1,0 +1,15 @@
+.btn-agregarLetras{
+  background-color: #178e5600;/* background-color: #178e57;*/
+  color: #178e57;
+  font-family: var(--fontFamily-drawer);
+  font-size: calc(var(--fontSize-drawer) + 5px);
+  margin-left: 1%;
+  border: none;
+  border-radius: 15%;
+  height:  2rem;
+  font-weight: bold;
+}
+
+.btn-agregarLetras:hover{
+opacity: 0.5;
+}

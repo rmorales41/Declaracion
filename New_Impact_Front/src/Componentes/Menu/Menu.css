@@ -1,0 +1,140 @@
+.abrirMenu{
+ /*color: white;*/
+  color: var(--color-drawer); 
+  margin-right: 1.2rem;
+  border: none;
+}
+
+.abrirMenu:hover{
+  opacity: 0.5;
+}
+
+.nav-link{
+  margin-right: 1%; 
+}
+
+.label-tipoCambio{
+  display: block;
+  margin-right: 1rem;
+  /*font-size: calc(var(--fontSize-drawer) - 2px);*/
+  font-size: 14px;
+  font-family: var(--fontFamily-drawer); 
+  font-weight: none;
+  color: var(--color-drawer); 
+}
+
+.label-tipoCambio-NavBarmenu{
+  font-size: calc(var(--fontSize-drawer) - 2px);
+  font-family: var(--fontFamily-drawer); 
+  font-weight: none;
+  color: var(--color-drawer); 
+  white-space: nowrap;
+}
+
+.nav-link:hover{
+  opacity: 0.5;
+}
+
+.btn_close{
+  color: var(--color-drawer); 
+  font-size: 25px;
+}
+
+.btn_close:hover{
+  opacity: 0.5;
+}
+
+.btn_cerrarSesion{
+  color: var(--color-drawer); 
+  font-size: 25px;
+  margin-right: 58%; 
+}
+
+.btn_cerrarSesion:hover{
+  opacity: 0.5;
+}
+
+/*menos de 1300px*/
+@media (max-width: 1300px) {
+  .btn_cerrarSesion{
+    margin-right: 53%; 
+  }
+} 
+
+.logo-menu{
+  font-size: var(--fontSize-drawer);
+  color: var(--color-drawer); 
+}
+
+.logos-submenus{
+  margin-right: 8px;
+}
+
+.logo-collapse{
+  font-size: var(--fontSize-drawer);
+  margin-left: 10px;
+  margin-right: 10px;
+  color: var(--color-drawer); 
+}
+
+.logo-collapse-submenus{
+  font-size: var(--fontSize-drawer-submenus);
+  margin-left: 10px;
+  margin-right: 2px;
+  color: var(--color-drawer); 
+}
+
+.logo-collapse-subsubmenus{
+  font-size: var(--fontSize-drawer-subsubmenus);/*font-size:12.2px;*/
+  margin-left: 10px;
+  margin-right: 2px;
+  color: var(--color-drawer); 
+}
+
+.perfil-usuario-abierto{
+  margin-top: -10%;
+}
+
+.perfil-usuario-cerrado{
+  margin-top: 10%;
+  margin-right: 5%;
+}
+
+.logo-usuario{
+  font-size: 51px;
+}
+
+.logo-usuario-cerrado{
+  font-size: 23px;
+}
+
+.nombre-usuario{
+  font-size: 19px;
+}
+
+.btn-avatar{
+  border: none;
+}
+
+.text-dropdown.disabled {
+  pointer-events: none;
+}
+
+.text-dropdown {
+  color: var(--color-text-dropdown); 
+  font-size: var(--fontSize-drawer); 
+  font-family: var(--fontFamily-drawer); 
+}
+
+.dropdown-item{
+  font-size: var(--fontSize-drawer); 
+}
+
+.dropdown-item:hover{
+  opacity: 0.5;
+}
+
+:root {
+  --backgroundColor-closedMixin: /* tu color de fondo cuando el Drawer está cerrado */;
+}
+

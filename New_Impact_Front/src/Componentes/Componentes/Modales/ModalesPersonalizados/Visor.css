@@ -1,0 +1,87 @@
+.ContenedorVisor {
+  position: fixed;
+  top: 0; 
+  right: 0;
+  background-color: #FFFFFF;
+  margin: 0%;
+  margin-top: 5rem;
+  padding: 0%;
+  background-color: rgb(83, 139, 167);
+}
+
+.btnCerrarModal{
+  font-size: 20px;
+}
+
+.btnCerrarModal:hover{
+  opacity: 0.5;
+}
+ 
+.CuerpoContenedorVisor{
+  margin-left: -1rem;
+}
+
+@media (max-width: 850px) {
+  .CuerpoContenedorVisor{
+    margin-left: -1rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .CuerpoContenedorVisor{
+    margin-left: -2.800rem;
+    margin-top: -2rem;
+  }
+}
+
+.ContenedorBoton {
+  width: 95%;
+  margin-left: 1rem;
+  display: flex; /* Agrega display flex */
+  justify-content: flex-end; /* Alinea el contenido al final de la derecha */
+  margin-bottom: -1rem;
+}
+
+@media (max-width: 1350px) {
+  .ContenedorBoton{
+    width: 95%;
+    margin-left: 1rem;
+    display: flex; /* Agrega display flex */
+    justify-content: flex-end; /* Alinea el contenido al final de la derecha */
+    margin-bottom: -2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .ContenedorBoton{
+    margin-top: 2rem;
+    margin-bottom: -4rem;
+    width: 90%;
+    margin-left: 2.800rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .ContenedorBoton{
+    width: 80%;
+    margin-left: 3rem;
+  }
+}
+
+.btnCerrarVisor {
+  margin: 0%;
+  padding-top: 0%;
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  color: #F28705;
+}
+
+.btnCerrarVisor:hover {
+  color: #d67703;
+}
+
+
+
+
+
+
+

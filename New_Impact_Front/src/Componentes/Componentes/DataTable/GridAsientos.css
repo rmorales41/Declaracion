@@ -1,0 +1,57 @@
+.cardTableSeach{
+  background-color: #ffffff00;
+  border: none;
+}
+
+.encabezadoSeachAsientos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  .encabezadoSeachAsientos {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button-encabezadoSeachAsientos {
+    margin-bottom: 1rem;
+  }
+}
+
+.button-encabezadoSeachAsientos {
+  flex: 0 0 auto;
+  margin-left: 1%;
+}
+
+.cardAsientos {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-Totales{
+  background-color: #b0396d;
+  color: white;
+  font-family: var(--fontFamily-drawer);
+  font-size: calc(var(--fontSize-drawer) - 2px);
+}
+
+.btn-Totales:hover{
+  background-color: #df4a8a;
+  color: white;
+  font-family: var(--fontFamily-drawer);
+  font-size: calc(var(--fontSize-drawer) - 2px);
+}
+
+.contenedorAlerts{
+  height: 100%;
+  width: 35rem;
+}
+
+@media (max-width: 800px) {
+  .contenedorAlerts{
+    width: 100%;
+  }
+}

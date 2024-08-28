@@ -1,0 +1,25 @@
+.label_SelectAutoCompleteFormulario{
+  display: flex;
+  font-family: var(--fontFamily-drawer);
+  font-size: calc(var(--fontSize-drawer) - 2px);
+  font-weight: var(--fontWeight-drawer); /* font-weight: bold;*/
+  color: rgb(63, 63, 63);
+  margin-bottom: auto;
+}
+
+.spanInput:hover{ 
+  opacity: 0.5;
+}
+
+.classeSpanSelect{
+  border:none;
+  margin-top: auto;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+
+
+ 

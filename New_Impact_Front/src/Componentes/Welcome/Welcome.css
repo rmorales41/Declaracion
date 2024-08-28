@@ -1,0 +1,107 @@
+.animacion-titulo {
+    white-space: nowrap;
+    width: 10ch;
+    border-right: 4px solid;
+    animation: typing 5s infinite steps(10);
+    animation-direction: alternate;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.bienvenidaBtn{
+    background-color: #F28705;
+    border-color: #012E40;
+    border-style:solid;
+    border-width: 0.5vh;
+    color: #012E40;
+}
+
+.bienvenidaBtn:hover{
+    background-color: #F28705;
+    border-color: #000000;
+    border-style:solid;
+    border-width: 0.5vh;
+    box-shadow:1vh 1vh #000000;
+    color: #000000;
+    font-size: x-large;
+}
+
+.bienvenidaImg{
+    width: 100%;
+}
+.contenedorGeneral{
+    width: 100vw;
+}
+.header{
+    align-items: center;
+    background-color: #012e40;
+    color: #ced5d6;
+    display:flex;
+    font-family: Anton, sans-serif;
+    justify-content: space-between;
+    padding: 3% 7% 3% 7%;
+}
+h1{
+    font-size:5vw;
+}
+.parrafoBienvenida{
+    color: #ced5d6;
+    font-family: "Work Sans",sans-serif;
+    font-size: 1.25vw;
+    text-align: justify;
+}
+.publicidadContainer{
+    background-color: #ced5d6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.textContainer{
+    background-color: #025159;
+    padding: 5vw 15vw 10vw 15vw;
+}
+.tituloParrafo{
+    color: #F28705;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 2.75vw;
+    margin: 0%;
+    padding: 5vw;
+}
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 10ch;
+    }
+
+    100% {
+        width: 10ch;
+    }
+}
+@media screen and (max-width: 600px){
+    .animacion-titulo {
+        font-size: 8vw;
+    }
+    .parrafoBienvenida{
+        margin-top: 6vw;
+        font-size:medium;
+        text-align: justify;
+    }
+    .publicidadContainer{
+        align-items:center;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        padding: 0%;
+        margin: 0%;
+    
+    }
+    .tituloParrafo{
+        font-size:x-large;
+        margin-top: 6vw;
+        padding: 5vw;
+    }
+}
+

@@ -1,0 +1,23 @@
+.custom-confirm-button{
+  background-color: #198754;
+  color: white;
+  font-family: var(--fontFamily-drawer);
+  font-size: calc(var(--fontSize-drawer));
+}
+
+.custom-cancel-button{
+  background-color: #F28705;
+  color: white;
+  font-family: var(--fontFamily-drawer);
+  font-size: calc(var(--fontSize-drawer));
+}
+
+.custom-cancel-button:hover{
+  background-color: #d67703;
+  color: white;
+}
+
+.custom-confirm-button:hover{
+  background-color: #157347;
+  color: white;
+}

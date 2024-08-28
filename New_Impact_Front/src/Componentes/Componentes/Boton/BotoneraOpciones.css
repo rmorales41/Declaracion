@@ -1,0 +1,22 @@
+.btn-menu-BotoneraOpciones{
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  font-size: 19px;
+  margin-left: 2rem;
+  font-family: var(--fontFamily-drawer);
+  font-size: calc(var(--fontSize-drawer));
+}
+.btn-menu-BotoneraOpciones:hover{
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  color: rgb(212, 212, 212);
+  background-color: #303030;
+}
+
+.menu-item-BotoneraOpciones {
+  opacity: 1;
+  transition: opacity 0.3s ease; /* Agregar una transición para suavizar el cambio de opacidad */
+}
+
+.menu-item-BotoneraOpciones:hover {
+  opacity: 0.4;
+}

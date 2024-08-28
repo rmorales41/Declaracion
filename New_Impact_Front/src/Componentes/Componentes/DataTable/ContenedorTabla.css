@@ -1,0 +1,133 @@
+/*es el css de todo el lo que cntiene el la tabla del compañia paises*/
+.container_ContenedorTabla{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+/*es el css de todo el lo que cntiene el la tabla del compañia paises menos de 1300px*/
+@media (max-width: 1300px) {
+  .container_ContenedorTabla{
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-right:  3%;
+  }
+} 
+
+/*es el css de todo el lo que cntiene el la tabla del compañia paises menos de 1050px*/
+@media (max-width: 1050px) {
+  .container_ContenedorTabla{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+}
+
+/*es el css de todo el lo que cntiene el la tabla del compañia paises menos de 1050px*/
+@media (max-width: 850px) {
+  .container_ContenedorTabla{
+    margin-top: 13%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+}
+
+/*es el css de todo el lo que cntiene el la tabla del compañia paises menos de 750px*/
+@media (max-width: 750px) {
+  .container_ContenedorTabla{
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 5%;
+  }
+}
+
+/*es el css de todo el lo que cntiene el la tabla del compañia paises menos de 400px */
+@media (max-width: 450px) {
+  .container_ContenedorTabla{
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 5%;
+  }
+}
+
+/*es el css de todo el lo que cntiene el la tabla del compañia paises menos de 400px */
+@media (max-width: 350px) {
+  .container_ContenedorTabla{
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 5%;
+  }
+}
+
+.container-botones{
+  display: flex;
+  margin-right: 15%;
+}
+
+.btn-tablas{
+ margin-right: 3%;
+}
+
+.btn_tabla{
+  white-space: nowrap;
+}
+
+.btn_eliminar_checks{
+  white-space: nowrap;
+}
+
+.btn-nuevo{
+  background-color: #038C8C;
+  color: white;
+}
+
+.btn-nuevo:hover{
+  background-color: #007676;
+  color: white;
+}
+
+.item_tabla{
+  cursor: pointer;
+}
+
+.item_tabla:hover{
+  color: #9094a8;
+}
+
+.icon-span{
+  background-color: #cacbcb;
+}
+
+.sin_registros_Paises{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.sin_registros_info{
+color: red;
+margin-bottom: 1%;
+}
+
+/* menos de 990px  */
+@media (max-width: 990px) {
+  .container-btn-nuevo{
+    margin-right: 2%;
+  }
+}
+
+/* menos de 990px  */
+@media (max-width: 330px) {
+  .container-btn-nuevo{
+    margin-right: 10%;
+  }
+} 
+ 
+.exportar-text{
+  font-family: var(--fontFamily-drawer);
+  font-size: calc(var(--fontSize-drawer) + 2px);
+}
+
+.btns-opciones{
+  margin-right: 3%;
+}

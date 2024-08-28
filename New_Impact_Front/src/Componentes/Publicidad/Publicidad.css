@@ -1,0 +1,64 @@
+.colCuerpo{
+    background-color: #038C8C;
+    border-radius: 0em 0.3em 0.3em 0em;
+    color:#ced5d6;
+    font-family: "Work Sans",sans-serif;
+    font-size: 1.25vw;
+}
+.colPublicidad{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+.publicidadCard{
+    margin: 5vw 5vw 5vw 0vw !important;
+    width: 60VW;
+}  
+.publicidadEslogan{
+    color: #F28705 !important;
+}
+.publicidadMensaje{
+    padding: 2vw;
+    text-align: justify;
+}
+.publicidadTitulo{
+    color: #012E40;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.75vw;
+    padding: 2vw;
+}
+.imgPublicidad{
+    border-radius: 0em !important;
+} 
+
+@media screen and (max-width: 767px){
+    .colCuerpo{
+        border-radius: 0em 0em 0.5em 0.5em;
+        font-size:medium;
+    }
+    .publicidadCard{
+        margin: 6vw 0vw 0vw 0vw !important;
+        width: 100VW;
+    }  
+    .publicidadEslogan{
+        padding: 6vw !important;
+    }
+    .publicidadMensaje{
+        padding: 6vw;
+        text-align: justify;
+    }
+
+    .publicidadTitulo{
+        font-size:large;
+        padding: 2vw;
+    }
+}
+@media screen and (max-width: 551px){
+    .colCuerpo{
+        border-radius: 0em;
+        font-size:medium;
+    }
+    .publicidadCard{
+        border-radius: 0em; 
+    }
+}
